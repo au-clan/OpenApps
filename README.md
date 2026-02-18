@@ -31,6 +31,11 @@ git clone https://github.com/facebookresearch/OpenApps.git
 uv sync
 ```
 
+OR without torch
+```
+uv sync --no-install-package torch --no-install-package torchvision
+```
+
 see [docs](https://facebookresearch.github.io/OpenApps/) for details.
 
 
@@ -40,6 +45,11 @@ Simply run:
 
 ```bash
 uv run launch.py 
+```
+
+OR without torch
+```
+uv run --no-sync launch.py
 ```
 <img width="1440" height="822" alt="image" src="https://github.com/user-attachments/assets/46024c36-9f6d-462b-acb7-b6c148ed1754" />
 
